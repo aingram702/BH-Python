@@ -59,5 +59,5 @@ def decrypt(encrypted):
 
 
 if __name__ == '__main__':
-    plaintext = b'hey there you.'
+    plaintext = input("Enter plaintext message for cryptography: ")
     print(decrypt(encrypt(plaintext)))
